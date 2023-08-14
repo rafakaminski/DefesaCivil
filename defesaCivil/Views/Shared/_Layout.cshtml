@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Defesa Civil</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/defesaCivil.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow justify-content-center">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="https://www.defesacivil.sc.gov.br/wp-content/uploads/2020/01/logo-defesa-civil.png" alt="" width="30" height="24">
+                    Defesa Civil
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-center">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Login">Entrar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Ocorrencia" asp-action="Index">Ocorrência</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <footer class="">
+
+        <div class="bg-light text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-3">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+
+                    <a class="btn btn-primary btn-floating m-1"
+                      
+                       href="#!"
+                       role="button">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-primary btn-floating m-1"
+                       
+                       href="#!"
+                       role="button">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+
+                    <!-- Google -->
+                    <a class="btn btn-primary btn-floating m-1"
+                      
+                       href="#!"
+                       role="button">
+                        <i class="bi bi-google"></i>
+                    </a>
+
+                    
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+            <!-- Copyright -->
+            <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2020 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+        </div>
+
+    </footer>
+    <!-- End of .container -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
