@@ -314,6 +314,19 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "defesaCivil.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.21"
+        },
+        "compile": {
+          "bin/placeholder/defesaCivil.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/defesaCivil.Domain.dll": {}
+        }
       }
     }
   },
@@ -711,12 +724,18 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "defesaCivil.Domain/1.0.0": {
+      "type": "project",
+      "path": "../defesaCivil.Domain/defesaCivil.Domain.csproj",
+      "msbuildProject": "../defesaCivil.Domain/defesaCivil.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore >= 6.0.21",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.8"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.8",
+      "defesaCivil.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -750,7 +769,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\rafad\\OneDrive\\Documentos\\defesaCivil\\defesaCivil.Domain\\defesaCivil.Domain.csproj": {
+              "projectPath": "C:\\Users\\rafad\\OneDrive\\Documentos\\defesaCivil\\defesaCivil.Domain\\defesaCivil.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

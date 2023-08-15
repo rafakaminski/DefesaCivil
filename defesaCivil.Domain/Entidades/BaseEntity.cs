@@ -10,6 +10,6 @@ namespace defesaCivil.Domain.Entidades
     public class BaseEntity
     {
         [Key]
-        public long id {  get; set; }
+        public long Id {  get; set; }
     }
 }
