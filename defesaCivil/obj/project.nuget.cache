@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3XQ9MSzh7TXskxW3seQNK+ZINLlgX0Z7mdksYYWOHwc21EKuVMoKNZrZe8kw2oCBsgJ+nFh36whZQ+o2dPc3HQ==",
+  "dgSpecHash": "vyX2/x5akojGtGlNCPzv2wyqTRPGsxH0XoDVScicwcN0oXul0P4vafkzsEBbqvyBdlK/mOz1xJ+x/P8W4fgvBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\rafad\\OneDrive\\Documentos\\defesaCivil\\defesaCivil\\defesaCivil.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,8 @@
     "C:\\Users\\rafad\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\rafad\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\rafad\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\rafad\\.nuget\\packages\\npgsql\\6.0.8\\npgsql.6.0.8.nupkg.sha512",
+    "C:\\Users\\rafad\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.8\\npgsql.entityframeworkcore.postgresql.6.0.8.nupkg.sha512",
     "C:\\Users\\rafad\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\rafad\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\rafad\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",

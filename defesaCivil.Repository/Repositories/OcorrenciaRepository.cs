@@ -35,9 +35,6 @@ namespace defesaCivil.Repository.Repositories
         }
 
 
-        public Ocorrencia SalvarOcorrencia(Ocorrencia ocorrencia)
-        {
-            return Salvar(ocorrencia);
-        }
+       
     }
 }

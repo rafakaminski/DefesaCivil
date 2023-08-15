@@ -12,7 +12,5 @@ namespace defesaCivil.Repository.Interfaces
         List<Ocorrencia> PegarTodas();
         Ocorrencia SalvarOcorrencia(Ocorrencia ocorrencia);
         bool RemoverOcorrencia(long id);
-
-
-    }
+    }   
 }

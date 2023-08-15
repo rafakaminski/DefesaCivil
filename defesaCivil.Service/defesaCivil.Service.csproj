@@ -11,8 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\defesaCivil.Domain\defesaCivil.Domain.csproj" />
-    <ProjectReference Include="..\defesaCivil\defesaCivil.csproj" />
+    <ProjectReference Include="..\defesaCivil.Repository\defesaCivil.Repository.csproj" />
   </ItemGroup>
 
 </Project>

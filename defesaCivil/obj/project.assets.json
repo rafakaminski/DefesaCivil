@@ -213,7 +213,7 @@
           "System.Diagnostics.DiagnosticSource": "6.0.1"
         },
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {
             "related": ".xml"
           }
         },
@@ -229,7 +229,7 @@
       "Microsoft.EntityFrameworkCore.Abstractions/6.0.21": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
             "related": ".xml"
           }
         },
@@ -275,7 +275,7 @@
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {
             "related": ".xml"
           }
         },
@@ -303,7 +303,7 @@
           "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/_._": {
+          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {
             "related": ".xml"
           }
         },
@@ -323,7 +323,7 @@
           "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/_._": {
+          "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {
             "related": ".xml"
           }
         },
@@ -339,7 +339,7 @@
           "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/_._": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
             "related": ".xml"
           }
         },
@@ -356,7 +356,7 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
             "related": ".xml"
           }
         },
@@ -372,7 +372,7 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
         },
@@ -415,7 +415,7 @@
           "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/_._": {
+          "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {
             "related": ".xml"
           }
         },
@@ -428,7 +428,7 @@
       "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
             "related": ".xml"
           }
         },
@@ -448,7 +448,7 @@
           "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/_._": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
             "related": ".xml"
           }
         },
@@ -464,7 +464,7 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
             "related": ".xml"
           }
         },
@@ -484,6 +484,41 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Npgsql/6.0.8": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Npgsql.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Npgsql.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.12",
+          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.12",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.12",
+          "Npgsql": "6.0.8"
+        },
+        "compile": {
+          "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Buffers/4.5.1": {
@@ -520,7 +555,7 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {
             "related": ".xml"
           }
         },
@@ -642,6 +677,47 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "defesaCivil.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.21"
+        },
+        "compile": {
+          "bin/placeholder/defesaCivil.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/defesaCivil.Domain.dll": {}
+        }
+      },
+      "defesaCivil.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.21",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.8",
+          "defesaCivil.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/defesaCivil.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/defesaCivil.Repository.dll": {}
+        }
+      },
+      "defesaCivil.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "defesaCivil.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/defesaCivil.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/defesaCivil.Service.dll": {}
         }
       }
     }
@@ -1281,6 +1357,44 @@
         "version.txt"
       ]
     },
+    "Npgsql/6.0.8": {
+      "sha512": "wKa8MJEJaj0xQXUQZGv7q/KfPID23jSSvFFtljMworrv7dNajr0GN8PCU1SpywqHjMWdYEfK29DY1aYbiISbQg==",
+      "type": "package",
+      "path": "npgsql/6.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/Npgsql.dll",
+        "lib/net5.0/Npgsql.xml",
+        "lib/net6.0/Npgsql.dll",
+        "lib/net6.0/Npgsql.xml",
+        "lib/netcoreapp3.1/Npgsql.dll",
+        "lib/netcoreapp3.1/Npgsql.xml",
+        "lib/netstandard2.0/Npgsql.dll",
+        "lib/netstandard2.0/Npgsql.xml",
+        "lib/netstandard2.1/Npgsql.dll",
+        "lib/netstandard2.1/Npgsql.xml",
+        "npgsql.6.0.8.nupkg.sha512",
+        "npgsql.nuspec",
+        "postgresql.png"
+      ]
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.8": {
+      "sha512": "YJRpO+3wXQyWuwRUCVJj/Rsn46sY0bZ6uCGOEFApiRe0ZYJ6N6TxZUWKbTNJYjesickcLGzynOerpSbDJX1AYg==",
+      "type": "package",
+      "path": "npgsql.entityframeworkcore.postgresql/6.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
+        "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.xml",
+        "npgsql.entityframeworkcore.postgresql.6.0.8.nupkg.sha512",
+        "npgsql.entityframeworkcore.postgresql.nuspec",
+        "postgresql.png"
+      ]
+    },
     "System.Buffers/4.5.1": {
       "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
       "type": "package",
@@ -1584,12 +1698,29 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "defesaCivil.Domain/1.0.0": {
+      "type": "project",
+      "path": "../defesaCivil.Domain/defesaCivil.Domain.csproj",
+      "msbuildProject": "../defesaCivil.Domain/defesaCivil.Domain.csproj"
+    },
+    "defesaCivil.Repository/1.0.0": {
+      "type": "project",
+      "path": "../defesaCivil.Repository/defesaCivil.Repository.csproj",
+      "msbuildProject": "../defesaCivil.Repository/defesaCivil.Repository.csproj"
+    },
+    "defesaCivil.Service/1.0.0": {
+      "type": "project",
+      "path": "../defesaCivil.Service/defesaCivil.Service.csproj",
+      "msbuildProject": "../defesaCivil.Service/defesaCivil.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 6.0.20",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.21"
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.21",
+      "defesaCivil.Repository >= 1.0.0",
+      "defesaCivil.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1624,7 +1755,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\rafad\\OneDrive\\Documentos\\defesaCivil\\defesaCivil.Repository\\defesaCivil.Repository.csproj": {
+              "projectPath": "C:\\Users\\rafad\\OneDrive\\Documentos\\defesaCivil\\defesaCivil.Repository\\defesaCivil.Repository.csproj"
+            },
+            "C:\\Users\\rafad\\OneDrive\\Documentos\\defesaCivil\\defesaCivil.Service\\defesaCivil.Service.csproj": {
+              "projectPath": "C:\\Users\\rafad\\OneDrive\\Documentos\\defesaCivil\\defesaCivil.Service\\defesaCivil.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

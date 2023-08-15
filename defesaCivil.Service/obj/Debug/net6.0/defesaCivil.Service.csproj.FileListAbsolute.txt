@@ -1,0 +1,5 @@
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Service\obj\Debug\net6.0\defesaCivil.Service.csproj.AssemblyReference.cache
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Service\obj\Debug\net6.0\defesaCivil.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Service\obj\Debug\net6.0\defesaCivil.Service.AssemblyInfoInputs.cache
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Service\obj\Debug\net6.0\defesaCivil.Service.AssemblyInfo.cs
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Service\obj\Debug\net6.0\defesaCivil.Service.csproj.CoreCompileInputs.cache

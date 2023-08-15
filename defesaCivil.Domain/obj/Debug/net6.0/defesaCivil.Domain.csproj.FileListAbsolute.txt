@@ -1,0 +1,14 @@
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Domain\bin\Debug\net6.0\defesaCivil.Domain.deps.json
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Domain\bin\Debug\net6.0\defesaCivil.Domain.runtimeconfig.json
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Domain\bin\Debug\net6.0\defesaCivil.Domain.dll
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Domain\bin\Debug\net6.0\defesaCivil.Domain.pdb
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Domain\obj\Debug\net6.0\defesaCivil.Domain.csproj.AssemblyReference.cache
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Domain\obj\Debug\net6.0\defesaCivil.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Domain\obj\Debug\net6.0\defesaCivil.Domain.AssemblyInfoInputs.cache
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Domain\obj\Debug\net6.0\defesaCivil.Domain.AssemblyInfo.cs
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Domain\obj\Debug\net6.0\defesaCivil.Domain.csproj.CoreCompileInputs.cache
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Domain\obj\Debug\net6.0\defesaCivil.Domain.dll
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Domain\obj\Debug\net6.0\refint\defesaCivil.Domain.dll
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Domain\obj\Debug\net6.0\defesaCivil.Domain.pdb
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Domain\obj\Debug\net6.0\defesaCivil.Domain.genruntimeconfig.cache
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Domain\obj\Debug\net6.0\ref\defesaCivil.Domain.dll

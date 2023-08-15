@@ -1,11 +1,12 @@
-﻿using defesaCivil.Domain.Entidades;
+﻿using Microsoft.EntityFrameworkCore.Update.Internal;
+using defesaCivil.Domain.Entidades;
 using defesaCivil.Repository.Context;
-using defesaCivil.Repository.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using defesaCivil.Repository.Interfaces;
 
 namespace defesaCivil.Repository.Repositories
 {

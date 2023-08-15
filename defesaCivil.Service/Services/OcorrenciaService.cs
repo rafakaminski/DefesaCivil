@@ -1,4 +1,5 @@
 ﻿using defesaCivil.Domain.Entidades;
+using defesaCivil.Repository.Interfaces;
 using defesaCivil.Service.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -11,9 +12,9 @@ namespace defesaCivil.Service.Services
     public class OcorrenciaService : IOcorrenciaService
     {
 
-        private readonly IOcorrenciaService _ocorrenciaRepository;
+        private readonly IOcorrenciaRepository _ocorrenciaRepository;
 
-        public OcorrenciaService(IOcorrenciaService ocorrenciaRepository)
+        public OcorrenciaService(IOcorrenciaRepository ocorrenciaRepository)
         {
             _ocorrenciaRepository = ocorrenciaRepository;
         }
