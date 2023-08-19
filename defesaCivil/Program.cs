@@ -1,16 +1,15 @@
-
+using Microsoft.EntityFrameworkCore;
 using defesaCivil.Repository.Context;
 using defesaCivil.Repository.Interfaces;
 using defesaCivil.Repository.Repositories;
 using defesaCivil.Service.Interfaces;
 using defesaCivil.Service.Services;
-using Microsoft.EntityFrameworkCore;
+
 
 namespace defesaCivil
 {
     public class Program
     {
-
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);

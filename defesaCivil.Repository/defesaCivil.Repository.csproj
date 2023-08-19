@@ -15,8 +15,4 @@
     <ProjectReference Include="..\defesaCivil.Domain\defesaCivil.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Migrations\" />
-  </ItemGroup>
-
 </Project>

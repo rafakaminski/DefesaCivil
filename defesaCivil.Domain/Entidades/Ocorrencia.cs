@@ -4,7 +4,7 @@ using System.Reflection.Metadata;
 
 namespace defesaCivil.Domain.Entidades
 {
-    public class Ocorrencia
+    public class Ocorrencia : BaseEntity
     {
         public string Titulo { get; set; }
         public GravidadeEnum Gravidade { get; set; }

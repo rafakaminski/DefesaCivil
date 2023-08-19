@@ -34,7 +34,9 @@ namespace defesaCivil.Repository.Repositories
             }
         }
 
-
-       
+        public Ocorrencia SalvarOcorrencia(Ocorrencia ocorrencia)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

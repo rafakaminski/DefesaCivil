@@ -350,7 +350,6 @@ C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\ru\M
 C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\obj\Debug\net6.0\defesaCivil.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\obj\Debug\net6.0\defesaCivil.csproj.CopyComplete
 C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\Humanizer.dll
 C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -360,3 +359,11 @@ C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\Micr
 C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\Npgsql.dll
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\defesaCivil.Domain.dll
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\defesaCivil.Repository.dll
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\defesaCivil.Service.dll
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\defesaCivil.Repository.pdb
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\defesaCivil.Service.pdb
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\defesaCivil.Domain.pdb

@@ -3,3 +3,13 @@ C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Repository\obj\Debug\
 C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Repository\obj\Debug\net6.0\defesaCivil.Repository.AssemblyInfoInputs.cache
 C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Repository\obj\Debug\net6.0\defesaCivil.Repository.AssemblyInfo.cs
 C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Repository\obj\Debug\net6.0\defesaCivil.Repository.csproj.CoreCompileInputs.cache
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Repository\bin\Debug\net6.0\defesaCivil.Repository.deps.json
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Repository\bin\Debug\net6.0\defesaCivil.Repository.dll
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Repository\bin\Debug\net6.0\defesaCivil.Repository.pdb
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Repository\bin\Debug\net6.0\defesaCivil.Domain.dll
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Repository\bin\Debug\net6.0\defesaCivil.Domain.pdb
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Repository\obj\Debug\net6.0\defesaCivil.Repository.csproj.CopyComplete
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Repository\obj\Debug\net6.0\defesaCivil.Repository.dll
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Repository\obj\Debug\net6.0\refint\defesaCivil.Repository.dll
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Repository\obj\Debug\net6.0\defesaCivil.Repository.pdb
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil.Repository\obj\Debug\net6.0\ref\defesaCivil.Repository.dll
