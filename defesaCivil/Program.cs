@@ -49,7 +49,7 @@ namespace defesaCivil
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Ocorrencia}/{action=Form}/{id?}");
 
             app.Run();
 

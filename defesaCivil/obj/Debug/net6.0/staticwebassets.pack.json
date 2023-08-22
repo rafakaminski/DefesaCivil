@@ -265,6 +265,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\rafad\\OneDrive\\Documentos\\defesaCivil\\defesaCivil\\wwwroot\\logopreto-removebg-preview (1).png",
+      "PackagePath": "staticwebassets\\logopreto-removebg-preview (1).png"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.defesaCivil.props",
       "PackagePath": "build\\defesaCivil.props"
     },

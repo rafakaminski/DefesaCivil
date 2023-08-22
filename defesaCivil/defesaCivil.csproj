@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <Content Remove="wwwroot\landslide.png" />
+    <Content Remove="wwwroot\logo-removebg-preview.png" />
+    <Content Remove="wwwroot\logopreto-removebg-preview.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\defesaCivil.Domain\defesaCivil.Domain.csproj" />
     <ProjectReference Include="..\defesaCivil.Repository\defesaCivil.Repository.csproj" />
     <ProjectReference Include="..\defesaCivil.Service\defesaCivil.Service.csproj" />
   </ItemGroup>

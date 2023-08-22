@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g97RwkTROzoPrAR508g0mQUJ1sXh5TGspOrqQUpA0Fg=",
+  "Hash": "uFEhE8kPLFtEzm6MOK9BmVA+D77BoIuDRLdzPJ2OYnI=",
   "Source": "defesaCivil",
   "BasePath": "_content/defesaCivil",
   "Mode": "Default",
@@ -1154,6 +1154,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\rafad\\OneDrive\\Documentos\\defesaCivil\\defesaCivil\\wwwroot\\logopreto-removebg-preview (1).png",
+      "SourceId": "defesaCivil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rafad\\OneDrive\\Documentos\\defesaCivil\\defesaCivil\\wwwroot\\",
+      "BasePath": "_content/defesaCivil",
+      "RelativePath": "logopreto-removebg-preview (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logopreto-removebg-preview (1).png"
     }
   ]
 }

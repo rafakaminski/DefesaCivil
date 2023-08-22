@@ -36,6 +36,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "6.0.20",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.21",
+          "defesaCivil.Domain": "1.0.0",
           "defesaCivil.Repository": "1.0.0",
           "defesaCivil.Service": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "6.0.0.0",

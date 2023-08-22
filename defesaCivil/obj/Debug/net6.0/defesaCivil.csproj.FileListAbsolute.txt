@@ -367,3 +367,4 @@ C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\defe
 C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\defesaCivil.Repository.pdb
 C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\defesaCivil.Service.pdb
 C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\bin\Debug\net6.0\defesaCivil.Domain.pdb
+C:\Users\rafad\OneDrive\Documentos\defesaCivil\defesaCivil\obj\Debug\net6.0\defesaCivil.MvcApplicationPartsAssemblyInfo.cs

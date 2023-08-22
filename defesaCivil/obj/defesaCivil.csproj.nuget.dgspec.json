@@ -240,6 +240,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\rafad\\OneDrive\\Documentos\\defesaCivil\\defesaCivil.Domain\\defesaCivil.Domain.csproj": {
+                "projectPath": "C:\\Users\\rafad\\OneDrive\\Documentos\\defesaCivil\\defesaCivil.Domain\\defesaCivil.Domain.csproj"
+              },
               "C:\\Users\\rafad\\OneDrive\\Documentos\\defesaCivil\\defesaCivil.Repository\\defesaCivil.Repository.csproj": {
                 "projectPath": "C:\\Users\\rafad\\OneDrive\\Documentos\\defesaCivil\\defesaCivil.Repository\\defesaCivil.Repository.csproj"
               },
